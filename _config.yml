@@ -1,1 +1,4 @@
+name: Apeksha Agarwal, Awesome Dev
+markdown: kramdown
+permalink: /[repo-name]/:year/:month/:day/:title
 theme: jekyll-theme-cayman
