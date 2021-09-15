@@ -1,1 +1,1 @@
-# CS5200MobileApplicationDevelopment
+# Mobile Application Development
