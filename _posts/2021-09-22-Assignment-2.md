@@ -22,3 +22,23 @@
 
 
 <img width="347" alt="Screen Shot 2021-10-01 at 12 31 07 AM" src="https://user-images.githubusercontent.com/17286896/135585419-f685caa4-0323-4d38-8583-0bebc8bf14bf.png">&emsp; &emsp; &emsp; &emsp; <img width="347" alt="Screen Shot 2021-10-01 at 12 30 47 AM" src="https://user-images.githubusercontent.com/17286896/135585403-d094cef1-6abc-4a94-9931-4541ab51b82d.png">
+
+
+
+## Lesson 2.2
+
+### Github
+[Lesson 2.2](https://github.com/apeksha20/CS5520MobileApplicationDevelopment/tree/main/Assignment2/Lesson2_1)
+
+### My Learnings
+* Learnt about activity lifecycle. The lifecycle methods are onCreate(), onStart(), onPause(), onRestart(), onResume(), onStop(), onDestroy().
+* As the Device configuration changes such as rotation, the results in the Activity are destroyed and recreated as if it were new. So we need to Save Activity instance state in the onSaveInstanceState() method with key/value in bundle.
+
+### Screenshots
+<img width="347" alt="Screen Shot 2021-10-01 at 2 17 16 AM" src="https://user-images.githubusercontent.com/17286896/135599595-95f6bc06-b8b0-43c1-9a18-2e212a2af34e.png"> &emsp; &emsp; &emsp; &emsp; <img width="347" alt="Screen Shot 2021-10-01 at 2 17 33 AM" src="https://user-images.githubusercontent.com/17286896/135599638-c5e95652-66eb-4754-bbb2-f6557e1c17cb.png"> &emsp; &emsp; &emsp; &emsp; <img width="724" alt="Screen Shot 2021-10-01 at 2 19 28 AM" src="https://user-images.githubusercontent.com/17286896/135599663-f46c9461-330e-4707-8f47-c005d9b99ad1.png">
+
+### After Implementing nSaveInstanceState() method
+
+
+<img width="352" alt="Screen Shot 2021-10-01 at 2 32 03 AM" src="https://user-images.githubusercontent.com/17286896/135599977-f044f8af-d99b-4ee4-939c-07a4a62a9786.png"> &emsp; &emsp; &emsp; &emsp; <img width="723" alt="Screen Shot 2021-10-01 at 2 32 35 AM" src="https://user-images.githubusercontent.com/17286896/135600229-695aa54d-75c0-42af-972c-4c345983a7d8.png">
+
