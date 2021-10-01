@@ -42,3 +42,36 @@
 
 <img width="352" alt="Screen Shot 2021-10-01 at 2 32 03 AM" src="https://user-images.githubusercontent.com/17286896/135599977-f044f8af-d99b-4ee4-939c-07a4a62a9786.png"> &emsp; &emsp; &emsp; &emsp; <img width="723" alt="Screen Shot 2021-10-01 at 2 32 35 AM" src="https://user-images.githubusercontent.com/17286896/135600229-695aa54d-75c0-42af-972c-4c345983a7d8.png">
 
+### Homework
+
+**Question 1**
+If you run the homework app before implementing onSaveInstanceState(), what happens if you rotate the device? Choose one:
+
+* The EditText no longer contains the text you entered, but the counter is preserved.
+* The counter is reset to 0, and the EditText no longer contains the text you entered.
+* **The counter is reset to 0, but the contents of the EditText is preserved.**
+* The counter and the contents of the EditText are preserved.
+
+**Question 2**
+What Activity lifecycle methods are called when a device-configuration change (such as rotation) occurs? Choose one:
+
+* Android immediately shuts down your Activity by calling onStop(). Your code must restart the Activity.
+* Android shuts down your Activity by calling onPause(), onStop(), and onDestroy(). Your code must restart the Activity.
+* **Android shuts down your Activity by calling onPause(), onStop(), and onDestroy(), and then starts it over again, calling onCreate(), onStart(), and onResume().**
+* Android immediately calls onResume().
+
+**Question 3**
+When in the Activity lifecycle is onSaveInstanceState() called? Choose one:
+
+* onSaveInstanceState() is called before the onStop() method.
+* onSaveInstanceState() is called before the onResume() method.
+* onSaveInstanceState() is called before the onCreate() method.
+* **onSaveInstanceState() is called before the onDestroy() method.**
+
+**Question 4**
+Which Activity lifecycle methods are best to use for saving data before the Activity is finished or destroyed? Choose one:
+
+* **onPause() or onStop()**
+* onResume() or onCreate()
+* onDestroy()
+* onStart() or onRestart()
