@@ -86,3 +86,19 @@ Which Activity lifecycle methods are best to use for saving data before the Acti
 * onResume() or onCreate()
 * onDestroy()
 * onStart() or onRestart()
+
+## Lesson 2.3
+
+### Github
+[Lesson 2.3](https://github.com/apeksha20/CS5520MobileApplicationDevelopment/tree/main/Assignment2/Lesson2_3)
+
+### My Learnings
+* Learnt about implicit intents and how to use them.
+* With an implicit intent, you initiate an activity without knowing which app or activity will handle the task.
+* ShareCompat.IntentBuilder class makes it easy to build an implicit intent for sharing data.
+* We must specify the intents that are used to send to other app in the manifest.xml
+
+### Screenshots
+<img width="348" alt="Screen Shot 2021-10-01 at 1 32 08 PM" src="https://user-images.githubusercontent.com/17286896/135683909-f1a4533f-de16-4133-84e6-430a7e9a330e.png">&emsp; &emsp;<img width="348" alt="Screen Shot 2021-10-01 at 1 37 00 PM" src="https://user-images.githubusercontent.com/17286896/135683918-6223fc0a-8b1d-44da-9def-2dc8d5a1a929.png">&emsp; &emsp;<img width="348" alt="Screen Shot 2021-10-01 at 1 37 28 PM" src="https://user-images.githubusercontent.com/17286896/135683925-177c5b60-698b-4dcb-ae87-ad708d449bf1.png">&emsp; &emsp;<img width="348" alt="Screen Shot 2021-10-01 at 1 44 00 PM" src="https://user-images.githubusercontent.com/17286896/135684074-d6ac39f2-6776-4e65-835d-dfbd2c697007.png">
+
+
