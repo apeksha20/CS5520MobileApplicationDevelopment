@@ -28,7 +28,7 @@
 ## Lesson 2.2
 
 ### Github
-[Lesson 2.2](https://github.com/apeksha20/CS5520MobileApplicationDevelopment/tree/main/Assignment2/Lesson2_1)
+[Lesson 2.2](https://github.com/apeksha20/CS5520MobileApplicationDevelopment/tree/main/Assignment2/Lesson2_2)
 
 ### My Learnings
 * Learnt about activity lifecycle. The lifecycle methods are onCreate(), onStart(), onPause(), onRestart(), onResume(), onStop(), onDestroy().
@@ -43,6 +43,10 @@
 <img width="352" alt="Screen Shot 2021-10-01 at 2 32 03 AM" src="https://user-images.githubusercontent.com/17286896/135599977-f044f8af-d99b-4ee4-939c-07a4a62a9786.png"> &emsp; &emsp; &emsp; &emsp; <img width="723" alt="Screen Shot 2021-10-01 at 2 32 35 AM" src="https://user-images.githubusercontent.com/17286896/135600229-695aa54d-75c0-42af-972c-4c345983a7d8.png">
 
 ### Homework
+
+### Github
+[Lesson 2.2 Homework](https://github.com/apeksha20/CS5520MobileApplicationDevelopment/tree/main/Assignment2/Lesson2_2HomeWork)
+
 <img width="345" alt="Screen Shot 2021-10-01 at 3 34 26 AM" src="https://user-images.githubusercontent.com/17286896/135609150-ce417ad4-eae8-4b57-bf98-876adbe6de4e.png"><img width="709" alt="Screen Shot 2021-10-01 at 3 35 02 AM" src="https://user-images.githubusercontent.com/17286896/135609205-0e5d64c7-cc49-4826-9593-5ecd7f2ec6de.png">
 
 <img width="714" alt="Screen Shot 2021-10-01 at 3 55 22 AM" src="https://user-images.githubusercontent.com/17286896/135609270-95533929-3893-4799-8b57-bbe751be5e1c.png">
