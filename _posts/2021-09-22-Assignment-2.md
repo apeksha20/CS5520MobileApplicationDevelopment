@@ -1,7 +1,7 @@
 ## Lesson 2.1
 
 ### Github
-[Lesson 1.1](https://github.com/apeksha20/CS5520MobileApplicationDevelopment/tree/main/Assignment2/Lesson2_1)
+[Lesson 2.1](https://github.com/apeksha20/CS5520MobileApplicationDevelopment/tree/main/Assignment2/Lesson2_1)
 
 ### My Learnings
 * An Activity is a single screen in your app.
