@@ -1,0 +1,16 @@
+## Lesson 2.1
+
+### Github
+[Lesson 1.1](https://github.com/apeksha20/CS5520MobileApplicationDevelopment/tree/main/Assignment2/Lesson2_1)
+
+### My Learnings
+* An Activity is a single screen in your app.
+* An activity is started or activated with an intent.
+* Each new activity you add to your project has its own layout and Java files, separate from those of the main activity.
+* Intent is used to start another activity.
+* Intent is used to send data from one activity to another while launching it.
+
+### Screenshots
+
+
+
