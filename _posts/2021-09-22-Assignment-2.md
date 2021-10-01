@@ -43,6 +43,13 @@
 <img width="352" alt="Screen Shot 2021-10-01 at 2 32 03 AM" src="https://user-images.githubusercontent.com/17286896/135599977-f044f8af-d99b-4ee4-939c-07a4a62a9786.png"> &emsp; &emsp; &emsp; &emsp; <img width="723" alt="Screen Shot 2021-10-01 at 2 32 35 AM" src="https://user-images.githubusercontent.com/17286896/135600229-695aa54d-75c0-42af-972c-4c345983a7d8.png">
 
 ### Homework
+<img width="345" alt="Screen Shot 2021-10-01 at 3 34 26 AM" src="https://user-images.githubusercontent.com/17286896/135609150-ce417ad4-eae8-4b57-bf98-876adbe6de4e.png"><img width="709" alt="Screen Shot 2021-10-01 at 3 35 02 AM" src="https://user-images.githubusercontent.com/17286896/135609205-0e5d64c7-cc49-4826-9593-5ecd7f2ec6de.png">
+
+<img width="714" alt="Screen Shot 2021-10-01 at 3 55 22 AM" src="https://user-images.githubusercontent.com/17286896/135609270-95533929-3893-4799-8b57-bbe751be5e1c.png">
+
+<img width="714" alt="Screen Shot 2021-10-01 at 3 55 48 AM" src="https://user-images.githubusercontent.com/17286896/135609294-95ccbcc5-a401-48c4-9f26-bcb1e744185c.png">&emsp; &emsp; &emsp; &emsp; <img width="348" alt="Screen Shot 2021-10-01 at 3 56 19 AM" src="https://user-images.githubusercontent.com/17286896/135609376-9c44637b-d30c-4a77-9fbd-f4e8e7fb7d12.png">&emsp; &emsp; &emsp; &emsp; <img width="348" alt="Screen Shot 2021-10-01 at 3 56 28 AM" src="https://user-images.githubusercontent.com/17286896/135609386-a63c4ef9-c635-477b-b22a-937e1ad4d0fa.png">
+
+
 
 **Question 1**
 If you run the homework app before implementing onSaveInstanceState(), what happens if you rotate the device? Choose one:
