@@ -24,10 +24,10 @@
 23. Healthy food recipes
 24. Music Organizer
 25. Property Listing for buying and renting
-26. [Scan and convert to pdf] (/pages/2021-09-22-Brainstorm-URL-Store.md)
+26. [Scan and convert to pdf](https://github.com/apeksha20/CS5520MobileApplicationDevelopment/blob/gh-pages/pages/2021-09-22-Brainstorm-URL-Store.md)
 27. Food planner based on health
 28. Railway tracking 
-29. Voice translation 
+29. [Voice translation](https://github.com/apeksha20/CS5520MobileApplicationDevelopment/blob/gh-pages/pages/2021-09-22-Brainstorm-Voice%20translation.md) 
 30. Criminal alert 
 31. Scan items and find where they are available so that one can buy
 32. Digital Mall navigation map
