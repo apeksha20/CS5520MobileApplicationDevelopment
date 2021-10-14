@@ -7,7 +7,7 @@
 **Required Knowledge** A person should know how to classify urls to different categories.  
 **Artifacts:**.  
 Tools:  
-- A mobile app
-- Notepad
+- A mobile app where he can store
+- Notepad on a computer 
 - Notebook
-- Notes
+- Notes on phone 
