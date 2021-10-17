@@ -1,10 +1,11 @@
-## Assignment 3 TODO App
+
 
 ### Github
 [TODO App Code](https://github.com/apeksha20/CS5520MobileApplicationDevelopment/tree/main/Assignment3/TodoApp)
 
 ### Link to App on the Playstore
 In progress(Facing issues in verifying the identity)
+
 ### What I did..
 * Created my first android app which is a simple TODO app, through which we can add a task, its details, set the tag priority to high, medium, low and set a deadline date.  
 * The main activity/screen displays any created tasks as a **Listview** and an option to add a new task. The created task has a checkbox to indicate if the task is done or not. On clicking the task color changes to yellow.  
