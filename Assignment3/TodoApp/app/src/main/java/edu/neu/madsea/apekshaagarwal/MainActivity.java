@@ -15,13 +15,11 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
-import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
@@ -70,6 +68,14 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         listViewItems.setAdapter(itemsAdapter);
+        try {
+            Task task = new Task("Complete assignment", "Complete MAD assignment",
+                    "High Priority", new Date("10/22/2021"));
+            data.addTask(task);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
     }
 
     public void addTask(View view) {
