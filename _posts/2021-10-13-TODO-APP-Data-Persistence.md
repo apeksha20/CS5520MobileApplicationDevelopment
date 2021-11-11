@@ -29,16 +29,24 @@ In progress(Facing issues in verifying the identity)
 
 <img width="351" alt="Screen Shot 2021-11-10 at 5 38 19 PM" src="https://user-images.githubusercontent.com/17286896/141221476-2677acd0-64be-48ad-be48-6209b0c17bc0.png">
 
-### Adding Task
+### Adding a new Task
 
 <img width="351" alt="Screen Shot 2021-11-10 at 5 35 11 PM" src="https://user-images.githubusercontent.com/17286896/141221519-073f9e9f-4450-487d-ba77-d7e83f32b29f.png">
 
-### After Adding a new task
+### After Adding a new task how the app's home screen looks like
 
 <img width="351" alt="Screen Shot 2021-11-10 at 5 35 02 PM" src="https://user-images.githubusercontent.com/17286896/141221599-28062d89-fc67-4418-93c3-0d9afe0a94df.png">
 
-### Checking on the chewckbox marks the task complete and background color changes to yellow 
+### Checking on the checkbox marks the task complete and the background color changes to yellow 
 
 <img width="351" alt="Screen Shot 2021-11-10 at 5 35 56 PM" src="https://user-images.githubusercontent.com/17286896/141221675-61457614-e8c3-4135-b416-bb9a80dc5a37.png">
+
+### Editing a task 
+<img width="351" alt="Screen Shot 2021-11-10 at 5 35 02 PM" src="https://user-images.githubusercontent.com/17286896/141222023-b65a4415-62a2-47bc-a0eb-171be7cc6d2b.png"> &nbsp;&nbsp; <img width="351" alt="Screen Shot 2021-11-10 at 5 45 56 PM" src="https://user-images.githubusercontent.com/17286896/141222192-885ed1e9-d228-45e7-8e30-32fff752dcb1.png">&nbsp;&nbsp;<img width="351" alt="Screen Shot 2021-11-10 at 5 46 04 PM" src="https://user-images.githubusercontent.com/17286896/141222219-26f42d11-24a3-48d8-9ac7-51c6d23b6975.png">
+
+
+
+
+
 
 
