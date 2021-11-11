@@ -42,7 +42,8 @@ In progress(Facing issues in verifying the identity)
 <img width="351" alt="Screen Shot 2021-11-10 at 5 35 56 PM" src="https://user-images.githubusercontent.com/17286896/141221675-61457614-e8c3-4135-b416-bb9a80dc5a37.png">
 
 ### Editing a task 
-<img width="351" alt="Screen Shot 2021-11-10 at 5 35 02 PM" src="https://user-images.githubusercontent.com/17286896/141222023-b65a4415-62a2-47bc-a0eb-171be7cc6d2b.png"> &nbsp;&nbsp; <img width="351" alt="Screen Shot 2021-11-10 at 5 45 56 PM" src="https://user-images.githubusercontent.com/17286896/141222192-885ed1e9-d228-45e7-8e30-32fff752dcb1.png">&nbsp;&nbsp;<img width="351" alt="Screen Shot 2021-11-10 at 5 46 04 PM" src="https://user-images.githubusercontent.com/17286896/141222219-26f42d11-24a3-48d8-9ac7-51c6d23b6975.png">
+<img width="351" alt="Screen Shot 2021-11-10 at 5 35 02 PM" src="https://user-images.githubusercontent.com/17286896/141222023-b65a4415-62a2-47bc-a0eb-171be7cc6d2b.png"> &nbsp;&nbsp; <img width="351" alt="Screen Shot 2021-11-10 at 5 48 44 PM" src="https://user-images.githubusercontent.com/17286896/141222644-f0082606-19b9-40ff-8f9a-686a534a5796.png">&nbsp;&nbsp;<img width="351" alt="Screen Shot 2021-11-10 at 5 45 56 PM" src="https://user-images.githubusercontent.com/17286896/141222192-885ed1e9-d228-45e7-8e30-32fff752dcb1.png">&nbsp;&nbsp;
+<img width="351" alt="Screen Shot 2021-11-10 at 5 46 04 PM" src="https://user-images.githubusercontent.com/17286896/141222219-26f42d11-24a3-48d8-9ac7-51c6d23b6975.png">
 
 
 
