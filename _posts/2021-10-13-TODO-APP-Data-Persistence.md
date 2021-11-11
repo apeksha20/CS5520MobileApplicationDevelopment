@@ -45,8 +45,9 @@ In progress(Need to create an apk as I am not able to publish due to not  able t
 <img width="351" alt="Screen Shot 2021-11-10 at 5 35 02 PM" src="https://user-images.githubusercontent.com/17286896/141222023-b65a4415-62a2-47bc-a0eb-171be7cc6d2b.png"> &nbsp;&nbsp; <img width="351" alt="Screen Shot 2021-11-10 at 5 48 44 PM" src="https://user-images.githubusercontent.com/17286896/141222644-f0082606-19b9-40ff-8f9a-686a534a5796.png">&nbsp;&nbsp;<img width="351" alt="Screen Shot 2021-11-10 at 5 45 56 PM" src="https://user-images.githubusercontent.com/17286896/141222192-885ed1e9-d228-45e7-8e30-32fff752dcb1.png">&nbsp;&nbsp;
 <img width="351" alt="Screen Shot 2021-11-10 at 5 46 04 PM" src="https://user-images.githubusercontent.com/17286896/141222219-26f42d11-24a3-48d8-9ac7-51c6d23b6975.png">
 
-
-
+### Data persists after closing the app
+<img width="351" alt="Screen Shot 2021-11-10 at 6 03 01 PM" src="https://user-images.githubusercontent.com/17286896/141223992-0a4ae088-a044-41c4-ae09-cbd76878da2b.png">&nbsp;&nbsp;<img width="351" alt="Screen Shot 2021-11-10 at 6 03 19 PM" src="https://user-images.githubusercontent.com/17286896/141224020-659de272-e2e6-48fe-9da1-65de25b4c51b.png">
+&nbsp;&nbsp;<img width="351" alt="Screen Shot 2021-11-10 at 5 46 04 PM" src="https://user-images.githubusercontent.com/17286896/141223803-84863cad-c926-45ee-9616-cf02e1baae81.png">
 
 
 
