@@ -3,10 +3,10 @@
 [TODO App Code](https://github.com/apeksha20/CS5520MobileApplicationDevelopment/tree/main/Assignment4/TodoApp)
 
 ### Link to App on the Playstore
-In progress(Facing issues in verifying the identity)
+In progress(Need to create an apk as I am not able to publish due to not  able to verify identity as I am an international students)
 
 ### What I did..
-* Refactored my  TODO app which is a simple app, through which we can add a task, its details, set the tag priority to high, medium, low and set a deadline date.  
+* Refactored my TODO app which is a simple app, through which we can add a task, its details, set the tag priority to high, medium, low and set a deadline date. 
 * Previously my app didn't persist data, but now My app persist data and when I close and reopen the app, the saved tasks are seen the app. 
 * The data gets locally saved with the help of Room database.
 * Used Recycler view to display the list of tasks on the main screen and then created a view model and a repository and established a connection between them.
