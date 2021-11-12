@@ -12,17 +12,20 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
+/*
+Credits  Adrienne Slaughter : Referred TimestampConverter from her
+ */
 @RequiresApi(api = Build.VERSION_CODES.O)
 public class TimestampConverter {
 
-    public static DateFormat format  = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+    public static DateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm");
     public static DateTimeFormatter localDateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
     public static DateTimeFormatter isoDateTimeFormatter = DateTimeFormatter.ISO_LOCAL_DATE_TIME;
 //    DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM);
 
     @TypeConverter
     public static Date fromTimestamp(String value) {
-        if(value != null && !value.isEmpty()){
+        if (value != null && !value.isEmpty()) {
             try {
                 return format.parse(value);
             } catch (ParseException e) {
@@ -59,7 +62,7 @@ public class TimestampConverter {
             try {
 //                thing = LocalDateTime.from(localDateTimeFormatter.parse(value));
                 thing = LocalDateTime.from(isoDateTimeFormatter.parse(value));
-            } catch(Exception e) {
+            } catch (Exception e) {
                 thing = null;
             }
             return thing;

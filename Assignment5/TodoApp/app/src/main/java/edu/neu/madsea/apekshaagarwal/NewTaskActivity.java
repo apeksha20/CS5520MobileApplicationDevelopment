@@ -103,8 +103,9 @@ public class NewTaskActivity extends AppCompatActivity {
             } else {
                 MainActivity.taskViewModel.insert(this.task);
             }
-
+            if(remindMeCheckBox.isChecked()){
             createNotification(task);
+            }
 
             finish();
         } catch (Exception e) {
