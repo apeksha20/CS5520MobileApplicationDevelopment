@@ -13,7 +13,7 @@ import edu.neu.madsea.apekshaagarwal.Task;
 
 @Dao
 public interface TaskDao {
-    @Insert(onConflict= OnConflictStrategy.REPLACE)
+    @Insert(onConflict= OnConflictStrategy.IGNORE)
     void insert(Task task);
 
     @Update

@@ -7,11 +7,14 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.work.WorkManager;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,12 +35,16 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private TaskListAdapter taskListAdapter;
     public static TaskViewModel taskViewModel;
+    public static WorkManager workManager;
 
 
+    @SuppressLint("NewApi")
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        System.out.println("TIME: " + TimestampConverter.fromDate(new Date()));
 
         recyclerView = findViewById(R.id.recyclerview);
         taskListAdapter = new TaskListAdapter(new TaskListAdapter.TaskDiff());
@@ -52,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
             // Update the cached copy of the words in the adapter.
             taskListAdapter.submitList(tasks);
         });
+
+        workManager = WorkManager.getInstance(this);
     }
 
     public void addTask(View view) {

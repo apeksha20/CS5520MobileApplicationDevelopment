@@ -25,7 +25,6 @@ public class TaskRepository {
     // You must call this on a non-UI thread or your app will throw an exception. Room ensures
     // that you're not doing any long running operations on the main thread, blocking the UI.
     void insert(Task task) {
-        System.out.println("INSIDE TaskRepository::insert ; " + task);
         TaskRoomDatabase.databaseWriteExecutor.execute(() -> {
             mTaskDao.insert(task);
         });
@@ -39,5 +38,12 @@ public class TaskRepository {
 
     public Task getTask(int position) {
         return mAllTask.getValue().get(position);
+    }
+
+    public int getCount() {
+        if(mAllTask == null || mAllTask.getValue() == null){
+            return -1;
+        }
+        return mAllTask.getValue().size();
     }
 }

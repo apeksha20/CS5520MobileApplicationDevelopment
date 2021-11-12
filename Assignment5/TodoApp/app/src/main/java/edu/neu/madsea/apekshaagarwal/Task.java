@@ -44,6 +44,7 @@ public class Task implements Serializable {
 
 
     public Task(String title, String details, String tag, Date deadline, boolean remindMe, Date remindMeDate) {
+        this.id = MainActivity.taskViewModel.getCount() + 1;
         this.title = title;
         this.details = details;
         this.tag = tag;
@@ -55,18 +56,12 @@ public class Task implements Serializable {
     }
 
     public Task(String title, String details, String tag, Date deadline) {
-        this.title = title;
-        this.details = details;
-        this.tag = tag;
-        this.deadline = deadline;
-        this.isCompleted = false;
-        this.remindMe = false;
+        this(title, details, tag, deadline, false, null);
     }
 
 
     public Task() {
-        this.isCompleted = false;
-        this.remindMe = false;
+        this(null, null, null, null, false, null);
     }
 
     public void setTag(String tag) {

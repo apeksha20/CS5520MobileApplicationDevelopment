@@ -22,26 +22,22 @@ public class TimestampConverter {
 
     @TypeConverter
     public static Date fromTimestamp(String value) {
-        if (value != null) {
+        if(value != null && !value.isEmpty()){
             try {
                 return format.parse(value);
             } catch (ParseException e) {
                 e.printStackTrace();
             }
-            return null;
-        } else {
-            return null;
         }
+        return null;
     }
 
     @TypeConverter
     public static String fromDate(Date value) {
-        if (value != null) {
-            return format.format(value);
-        } else {
-            return "";
+        if (value == null) {
+            return null;
         }
-
+        return format.format(value);
     }
 
     @TypeConverter
