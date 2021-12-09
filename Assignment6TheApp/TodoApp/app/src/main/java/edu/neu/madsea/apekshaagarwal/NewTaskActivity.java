@@ -9,11 +9,13 @@ import androidx.work.Data;
 import androidx.work.OneTimeWorkRequest;
 
 import android.Manifest;
+import android.app.Application;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -30,6 +32,7 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import java.net.URI;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
@@ -99,6 +102,19 @@ public class NewTaskActivity extends AppCompatActivity {
 //                remindMeDate.setEnabled(((CheckBox) v).isChecked());
                 remindMeDate.setVisibility(((CheckBox) v).isChecked()?View.VISIBLE:View.INVISIBLE);
                 remindMeDate.setCursorVisible(((CheckBox) v).isChecked());
+            }
+        });
+
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Bitmap bitmap = ((BitmapDrawable)((ImageView)view.findViewById(R.id.imageView)).getDrawable()).getBitmap();
+//                bitmap.compress(Bitmap.CompressFormat.PNG, 100, );
+                String path = MediaStore.Images.Media.insertImage(getApplicationContext().getContentResolver(), bitmap, "My Title", null);
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.setDataAndType(Uri.parse(path), "image/*");
+                startActivity(intent);
             }
         });
     }
