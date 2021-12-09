@@ -119,6 +119,7 @@ public class NewTaskActivity extends AppCompatActivity {
         });
     }
 
+
     @Override
     protected void onResume() {
         super.onResume();
@@ -140,6 +141,10 @@ public class NewTaskActivity extends AppCompatActivity {
             task.setTag(tagsSpinner.getSelectedItem().toString());
             task.setDeadline(new SimpleDateFormat("MM/dd/yyyy").parse(taskDeadline.getText().toString()));
             task.setRemindMe(remindMeCheckBox.isChecked());
+            if((BitmapDrawable)imageView.getDrawable() != null){
+            Bitmap bitmap = ((BitmapDrawable)imageView.getDrawable()).getBitmap();
+            task.setBitmapImage(bitmap);
+            }
             if (remindMeCheckBox.isChecked()) {
                 task.setRemindMeDate(new SimpleDateFormat("MM/dd/yyyy HH:mm").parse(remindMeDate.getText().toString()));
             } else {
@@ -227,8 +232,18 @@ public class NewTaskActivity extends AppCompatActivity {
             String picturePath = cursor.getString(columnIndex);
             cursor.close();
             Bitmap bitmap = BitmapFactory.decodeFile(picturePath);
-            task.setBitmapImage(bitmap);
+            //task.setBitmapImage(bitmap);
             imageView.setImageBitmap(Bitmap.createScaledBitmap(bitmap, 256, 256, false));
         }
     }
+
+//    public void ShareTask(View view) {
+//        Intent sendIntent = new Intent();
+//        sendIntent.setAction(Intent.ACTION_SEND);
+//        sendIntent.putExtra(Intent.EXTRA_TEXT, "This is my text to send.");
+//        sendIntent.setType("text/plain");
+//
+//        Intent shareIntent = Intent.createChooser(sendIntent, null);
+//        startActivity(shareIntent);
+//    }
 }
