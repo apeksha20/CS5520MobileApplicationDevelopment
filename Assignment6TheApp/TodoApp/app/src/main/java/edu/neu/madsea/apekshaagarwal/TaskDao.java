@@ -31,4 +31,7 @@ public interface TaskDao {
 
     @Query("DELETE FROM todo_tasks")
     void deleteAll();
+
+    @Update(onConflict = OnConflictStrategy.REPLACE)
+    void update(List<Task> tasks);
 }

@@ -5,7 +5,7 @@ import static android.content.ContentValues.TAG;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
+
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.ItemTouchHelper;
@@ -13,12 +13,10 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.work.WorkManager;
 
-import android.Manifest;
 import android.annotation.SuppressLint;
 
 import android.content.Intent;
 
-import android.content.pm.PackageManager;
 import android.os.Bundle;
 
 import android.util.Log;
@@ -72,10 +70,38 @@ public class MainActivity extends AppCompatActivity {
                     return false;
                 }
 
+//                int fromPosition = viewHolder.getAbsoluteAdapterPosition();
+//                int toPosition = target.getAbsoluteAdapterPosition();
+////                reallyMoved(fromPosition, toPosition);
+////                Collections.swap(taskViewModel.getAllTasks().getValue(), fromPosition, toPosition);
+//                taskListAdapter.notifyItemMoved(fromPosition, toPosition);
+//                return true;
+
+
+
                 int fromPosition = viewHolder.getAbsoluteAdapterPosition();
                 int toPosition = target.getAbsoluteAdapterPosition();
-//                reallyMoved(fromPosition, toPosition);
-//                Collections.swap(taskViewModel.getAllTasks().getValue(), fromPosition, toPosition);
+                Log.d(TAG, "from position: "+ fromPosition);
+                Log.d(TAG, "toPosition : "+ toPosition);
+                if (fromPosition < toPosition) {
+                    for (int i = fromPosition; i < toPosition; i++) {
+                        Collections.swap(taskViewModel.getAllTasks().getValue(), i, i + 1);
+
+                        int order1 = taskViewModel.getAllTasks().getValue().get(i).getId();
+                        int order2 =taskViewModel.getAllTasks().getValue().get(i + 1).getId();
+                        taskViewModel.getAllTasks().getValue().get(i).setId(order2);
+                        taskViewModel.getAllTasks().getValue().get(i + 1).setId(order1);
+                    }
+                } else {
+                    for (int i = fromPosition; i > toPosition; i--) {
+                        Collections.swap(taskViewModel.getAllTasks().getValue(), i, i - 1);
+
+                        int order1 = taskViewModel.getAllTasks().getValue().get(i).getId();
+                        int order2 = taskViewModel.getAllTasks().getValue().get(i - 1).getId();
+                        taskViewModel.getAllTasks().getValue().get(i).setId(order2);
+                        taskViewModel.getAllTasks().getValue().get(i - 1).setId(order1);
+                    }
+                }
                 taskListAdapter.notifyItemMoved(fromPosition, toPosition);
                 return true;
             }
@@ -83,6 +109,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
 
+            }
+
+            @Override
+            public void clearView(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder) {
+                super.clearView(recyclerView, viewHolder);
+                Log.d(TAG, "Updating to the database: ");
+                taskViewModel.update(taskViewModel.getAllTasks().getValue());
             }
         };
         new ItemTouchHelper(drag).attachToRecyclerView(recyclerView);
@@ -93,4 +126,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(newIntent);
     }
 
+        @Override
+    protected void onResume() {
+        super.onResume();
+        taskListAdapter.notifyDataSetChanged();
+    }
 }

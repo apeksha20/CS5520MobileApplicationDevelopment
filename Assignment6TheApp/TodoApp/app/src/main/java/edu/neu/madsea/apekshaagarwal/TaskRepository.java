@@ -52,4 +52,10 @@ public class TaskRepository {
         }
         return mAllTask.getValue().size();
     }
+
+    public void update(List<Task> tasks) {
+        TaskRoomDatabase.databaseWriteExecutor.execute(()->{
+            mTaskDao.update(tasks);
+        });
+    }
 }
