@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TODO - AA</string>
+    <string name="task_details">Task details</string>
+    <string name="deadline">Deadline: mm/dd/yyyy</string>
+    <string name="save">Save</string>
+    <string name="remind_me">Remind me?</string>
+    <string name="task_title">Task title</string>
+    <string name="cancel">Cancel</string>
+    <string name="uploadImage">Upload Image</string>
+
+</resources>
