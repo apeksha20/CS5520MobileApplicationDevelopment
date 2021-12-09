@@ -9,6 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 
+import java.util.List;
+
 public class TaskListAdapter extends ListAdapter<Task, TaskViewHolder> {
 
     public TaskListAdapter(@NonNull DiffUtil.ItemCallback<Task> diffCallback) {
@@ -38,4 +40,5 @@ public class TaskListAdapter extends ListAdapter<Task, TaskViewHolder> {
             return oldItem.equals(newItem);
         }
     }
+
 }
